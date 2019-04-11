@@ -1,0 +1,24 @@
+{
+  "name": "proxy_photos",
+  "version": "1.0.0",
+  "description": "Package file for item detail page proxy server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrsf113-group-2/proxy_photos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrsf113-group-2/proxy_photos/issues"
+  },
+  "homepage": "https://github.com/hrsf113-group-2/proxy_photos#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "react": "^16.8.6"
+  }
+}
