@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/hrsf113-group-2/proxy_photos#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "express": "^4.16.4",
     "react": "^16.8.6"
   }
