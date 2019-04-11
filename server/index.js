@@ -24,9 +24,7 @@ app.get('/rooms/:room_id/reservations', (req, res) => {
 
 app.get('/relatedlisting', (req, res) => {
   axios.get(`http://localhost:3003/relatedlisting`)
-  .then(response => {
-    res.send(response.data);
-  })
+  .then(response => res.send(response.data))
   .catch(error => res.status(500).end());
 });
 
